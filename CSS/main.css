@@ -7,10 +7,10 @@
     list-style: none;
 }
 
-:root {
+/* :root {
     --bg-color: #222327 --text-color: #fff;
-    --main-color: #29fd53
-}
+    --main-color: #29fd53;
+} */
 
 body {
     min-height: 100vh;
@@ -30,13 +30,13 @@ header {
     justify-content: space-between;
     background: #fff;
     background: transparent;
-    padding: 28px 12%;
+    padding: 28px 6%;
     transition: all .50s ease;
 }
 
 
 
-.logo img {
+/* .logo img {
     width: 100%;
     height: 100%;
 
@@ -52,11 +52,11 @@ header {
     color: #000;
     font-size: 1.7rem;
     font-weight: 600;
-}
+} */
 
 .navbar {
     display: flex;
-
+    
 }
 
 .navbar a {
@@ -71,20 +71,20 @@ header {
 
 
 
-.main {
+/* .main {
     display: flex;
     align-items: center;
-}
+} */
 
-.main a {
+.social-logos a {
     margin-right: 25px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     color: #000;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
-.user {
+/* .user {
     display: flex;
     align-items: center;
 }
@@ -93,17 +93,17 @@ header {
     color: var(--main-color);
     font-size: 28px;
     margin-right: 7px;
-}
+} */
 
 
-
+/* 
 #menu-icon {
     font-size: 35px;
-    color: #000;
+    color: #ffffff;
     cursor: pointer;
     z-index: 10001;
     display: none;
-}
+} */
 
 .container {
     display: flex;
@@ -128,16 +128,16 @@ header {
     background-color: rgba(231, 250, 254, 1);
     width: 620px;
     height: 640px;
-    border-radius: 12px;
+    border-radius: 40px 0px 0px 40px;
 }
 
 .image {
     width: 660px;
     height: 640px;
-    background-image: url(./6edfd21071175cb80c78475e2182df7b.jpg);
-    background-position: center center;
+    background-image: url(../assets/home\ page/6edfd21071175cb80c78475e2182df7b.jpg);
+    background-position: 85%;
     background-size: cover;
-    border-radius: 12px;
+    border-radius: 0px 40px 40px 0px;
 }
 
 .text {
@@ -272,22 +272,23 @@ header {
     width: 1280px;
     height: 640px;
     margin: 0 auto;
+    margin-top: 180px;
     border-radius: 10px;
     gap: 90px;
 }
 
-.categories {
-    display: flex;
-    align-items: center;
+/* .categories {
+
     justify-content: space-between;
     margin-top: 90px;
-}
+} */
 
 .categories h2 {
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 600;
-    line-height: 39.2px;
+    line-height: 58.09px;
     color: #000;
+    margin-bottom: 20px;
 }
 
 .categories button {
@@ -470,10 +471,11 @@ header {
 }
 
 .chef-img img {
-    width: 100%;
-    height: 100%;
+    width: 660px;
+    height: 597px;
     object-fit: cover;
     border-radius: 30px;
+    
 }
 
 .chef-text {
@@ -512,6 +514,7 @@ header {
     margin-bottom: 60px;
     margin-top: 60px;
     min-height: 700px;
+    padding-bottom: 10px;
 
 }
 
@@ -960,38 +963,38 @@ footer {
 }
 
 
-@media (max-width: 1280px) {
+/* @media (max-width: 1280px) {
     header {
         padding: 14px 2%;
         transition: all 0.2s ease;
-        /* Slight improvement for better browser support */
+        Slight improvement for better browser support
     }
 
     .navbar a {
         padding: 5px 0;
         margin: 0 20px;
     }
-}
+} */
 
-@media (max-width: 1090px) {
+/* @media (max-width: 1090px) {
     #menu-icon {
         display: block;
-    }
+    } */
 
-    .navbar {
+    /* .navbar {
         position: absolute;
         top: 100%;
         right: -100%;
         width: 270px;
-        background: var(--main-color);
+        background: #29fd53;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         border-radius: 10px;
         transition: all .50s ease;
-    }
+    } */
 
-    .navbar a {
+    /* .navbar a {
         display: block;
         margin: 12px 0;
         padding: 0px 25px;
@@ -1009,7 +1012,7 @@ footer {
 
     .navbar.open {
         right: 2%;
-    }
+    } */
 
 
 }
